@@ -2,7 +2,7 @@
 
 This is extension for Firefox.
 
-##Build the extension
+## Build the extension
 1. yarn install
 2. yarn build
 3. yarn buildExt
