@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "tattler",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple text to speech",
   "id": "tattler@svnik.ru",
   "background": {
