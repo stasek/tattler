@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "tattler",
+  "version": "0.0.1",
+  "description": "Simple text to speech",
+  "id": "tattler@svnik.ru",
+  "background": {
+    "page": [
+      "background.html"
+    ],
+    "scripts": [
+      "dist/background.js",
+      "dist/audio.js"
+    ]
+  },
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "*://api.lingualeo.com/*"
+  ],
+  "applications": {
+    "gecko": {
+      "id": "tattler@svnik.ru",
+      "strict_min_version": "47.0a1"
+    }
+  }
+}
